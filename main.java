@@ -2,6 +2,7 @@ public class main implements TestImplements{
     public int a = 5;
     public static void main(String[] args){
         System.out.println("Hello" + "World");
+        test();
     }
     //test comment
     public void test(){ //test comment 2
@@ -21,5 +22,17 @@ public class main implements TestImplements{
             System.out.println(i);
             i++;
         }
+
+        boolean test = false;
+        if(!test){
+            String str = new String();
+        }
+
+        try {
+            System.out.println();
+        } catch(Exception e) {
+            System.out.println(e);
+        }
+
     }
 }
